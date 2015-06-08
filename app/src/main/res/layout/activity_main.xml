@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:layout_gravity="center_horizontal|center_vertical"
+     tools:context=".MainActivity">
+
+    <TextView android:text="@string/title"
+        android:layout_width="match_parent"
+        style="@style/Base.TextAppearance.AppCompat.Headline"  android:textAlignment="center"
+        android:layout_height="wrap_content" android:gravity="center"
+        />
+
+    <Button
+    android:id="@+id/spotify_streamer"
+    android:text="@string/spotify_streamer"
+        android:tag="@string/spotify_streamer"
+    style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/score_app"
+        android:text="@string/score_app"
+        android:tag="@string/score_app"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/library_app"
+        android:text="@string/library_app"
+        android:tag="@string/library_app"
+        style="@style/AppButtonStyle" />
+    <Button
+        android:id="@+id/build_it_bigger"
+        android:text="@string/build_it_bigger"
+        android:tag="@string/build_it_bigger"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        android:text="@string/xzy_reader"
+        android:tag="@string/xzy_reader"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/my_own_app"
+        android:text="@string/my_own_app"
+        android:tag="@string/my_own_app"
+        style="@style/AppButtonStyleRed" />
+
+</LinearLayout>
